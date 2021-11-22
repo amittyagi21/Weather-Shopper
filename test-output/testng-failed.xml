@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Customer Shopper Suite]" parallel="classes">
+  <test name="Customer Shopper Test(failed)" parallel="classes">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Customer Shopper Test(failed) -->
+</suite> <!-- Failed suite [Customer Shopper Suite] -->
